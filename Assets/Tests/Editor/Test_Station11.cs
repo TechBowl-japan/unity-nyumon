@@ -11,6 +11,7 @@ namespace Tests
     public class Station11
     {
         [UnityTest]
+        [Category("Station11")]
         public IEnumerator Test()
         {
             yield return TestUtility.LoadScene();

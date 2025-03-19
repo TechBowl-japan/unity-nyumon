@@ -8,6 +8,7 @@ namespace Tests
     public class Station03
     {
         [UnityTest]
+        [Category("Station03")]
         public IEnumerator Test()
         {
             yield return TestUtility.LoadScene();
