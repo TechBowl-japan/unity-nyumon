@@ -1,0 +1,17 @@
+{
+  "name": "Station 04",
+  "id": 860,
+  "tests": [
+    {
+      "type": "unity",
+      "command": "category:Station04",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "Build Settingsが正しく設定されていること",
+    "Playerが存在すること",
+    "左矢印キーを押した際にPlayerが左に移動すること"
+  ]
+}

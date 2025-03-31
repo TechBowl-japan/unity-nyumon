@@ -1,0 +1,19 @@
+{
+  "name": "Station 06",
+  "id": 862,
+  "tests": [
+    {
+      "type": "unity",
+      "command": "category:Station06",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "Build Settingsが正しく設定されていること",
+    "Wallsが存在し、正しく配置されていること",
+    "Playerが存在すること",
+    "PlayerにSphere Colliderが設定されていること",
+    "Playerが壁に衝突すること"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Station 01",
+  "id": 857,
+  "tests": [
+    {
+      "type": "unity",
+      "command": "category:Station01",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": ["正しくリポジトリを開けていること"]
+}
