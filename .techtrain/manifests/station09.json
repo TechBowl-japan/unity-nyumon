@@ -1,0 +1,20 @@
+{
+  "name": "Station 09",
+  "id": 865,
+  "tests": [
+    {
+      "type": "unity",
+      "command": "category:Station09",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "Build Settingsが正しく設定されていること",
+    "Playerが存在すること",
+    "PlayerにPlayerControllerが設定されていること",
+    "PlayerControllerにcountフィールドが存在すること",
+    "CountTextが存在すること",
+    "CountTextが正しく更新されること"
+  ]
+}

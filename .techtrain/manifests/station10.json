@@ -1,0 +1,23 @@
+{
+  "name": "Station 10",
+  "id": 866,
+  "tests": [
+    {
+      "type": "unity",
+      "command": "category:Station10",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "Build Settingsが正しく設定されていること",
+    "Playerが存在すること",
+    "PlayerにPlayerControllerが設定されていること",
+    "PlayerControllerにOnTriggerEnterメソッドが存在すること",
+    "PickUp Parentが存在すること",
+    "PickUp Parentの子が4つ存在すること",
+    "Canvasが存在すること",
+    "WinTextが存在すること",
+    "PickUpすべてを取得した際にWinTextが表示されること"
+  ]
+}

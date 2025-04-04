@@ -1,0 +1,18 @@
+{
+  "name": "Station 05",
+  "id": 861,
+  "tests": [
+    {
+      "type": "unity",
+      "command": "category:Station05",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "Build Settingsが正しく設定されていること",
+    "Playerが存在すること",
+    "Main Cameraが存在すること",
+    "Main CameraがPlayerに追従すること"
+  ]
+}

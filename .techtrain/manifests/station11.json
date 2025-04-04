@@ -1,0 +1,40 @@
+{
+  "name": "Station 11",
+  "id": 867,
+  "tests": [
+    {
+      "type": "unity",
+      "command": "category:Station11",
+      "args": [],
+      "shell": true
+    }
+  ],
+  "clear_conditions": [
+    "Build Settingsが正しく設定されていること",
+    "Playerが存在すること",
+    "Playerにマテリアルが設定されていること",
+    "Playerのマテリアル色が変更されていること",
+    "Playerの座標が変更されていること",
+    "Groundが存在すること",
+    "Groundにマテリアルが設定されていること",
+    "Wallsが存在し、正しく配置されていること",
+    "GroundとWallsのマテリアル色が変更されていること",
+    "GroundとWallsの座標が変更されていること",
+    "PickUp Parentが存在すること",
+    "PickUp Parentの子が8つ以上存在すること",
+    "PickUpのマテリアル色が変更されていること",
+    "PickUpの座標が変更されていること",
+    "CountTextが存在すること",
+    "CountTextの表示色が変更されていること",
+    "CountTextの座標が変更されていること",
+    "Canvasが存在すること",
+    "WinTextが存在すること",
+    "WinTextの表示色が変更されていること",
+    "WinTextの座標が変更されていること",
+    "PickUp2が4つ以上存在すること",
+    "PlayerにPlayerControllerが設定されていること",
+    "PlayerControllerにOnTriggerEnterメソッドが存在すること",
+    "PlayerがPickUpに衝突した際に1点としてカウントされること",
+    "PlayerがPickUp2に衝突した際に2点としてカウントされること"
+  ]
+}
