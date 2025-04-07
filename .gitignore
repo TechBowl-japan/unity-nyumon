@@ -75,4 +75,6 @@ crashlytics-build.properties
 
 # macOS system files
 .DS_Store
+
+# TOML configuration files
 .techtrain/config.toml
