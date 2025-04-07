@@ -25,6 +25,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/*
 
 # Gradle cache directory
 .gradle/
@@ -74,3 +75,6 @@ crashlytics-build.properties
 
 # macOS system files
 .DS_Store
+
+# TOML configuration files
+.techtrain/config.toml
