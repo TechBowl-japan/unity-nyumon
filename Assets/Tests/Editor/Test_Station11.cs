@@ -98,7 +98,7 @@ namespace Tests
             Assert.That((Color32)winTextColor, Is.Not.EqualTo(new Color32(0, 0, 0, 255)), "WinTextの色が変更されていません");
             Assert.That(winTextTransform.localPosition, Is.Not.EqualTo(new Vector3(0f, 100f, 0f)), "WinTextの位置が変更されていません");
 
-            var pickUp2Colliders = pickUpParentObject.transform.GetComponentsInChildren<BoxCollider>().Where(x => x.CompareTag("PickUp2")).ToArray();
+            var pickUp2Colliders = pickUpParentObject.transform.GetComponentsInChildren<Collider>().Where(x => x.CompareTag("PickUp2")).ToArray();
             Assert.That(pickUp2Colliders.Length, Is.GreaterThanOrEqualTo(4), "PickUp Parentの子にPickUp2が4つ以上存在していません");
 
             var playerController = TestUtility.GetComponent(playerObject, "PlayerController");
